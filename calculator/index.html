@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-gradient-to-r from-sky-500 to-indigo-500">
+    <div
+      class="header h-16 flex items-center justify-center bg-pink-700 w-screen text-3xl font-semibold text-center"
+    >
+      <h1>Welcome to my calulator !</h1>
+    </div>
+    <div class="calu flex flex-col justify-center items-center relative top-44">
+      <div class="screen">
+        <input
+          type="text"
+          class="border-2 border-black w-[560px] h-[80px] rounded-full p-7 text-[22px]"
+        />
+      </div>
+      <div class="row1 mt-4">
+        <button
+          id="r"
+          class="btn bg-slate-400 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          AC
+        </button>
+        <button
+          class="btn bg-slate-400 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          +/-
+        </button>
+        <button
+          id="re"
+          class="btn bg-slate-400 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          DEL
+        </button>
+        <button
+          class="btn bg-yellow-500 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          /
+        </button>
+      </div>
+      <div class="row2 mt-2">
+        <button
+          class="btn bg-emerald-800 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          7
+        </button>
+        <button
+          class="btn bg-emerald-800 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          8
+        </button>
+        <button
+          class="btn bg-emerald-800 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          9
+        </button>
+        <button
+          class="btn bg-yellow-500 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          *
+        </button>
+      </div>
+      <div class="row3 mt-2">
+        <button
+          class="btn bg-emerald-800 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          4
+        </button>
+        <button
+          class="btn bg-emerald-800 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          5
+        </button>
+        <button
+          class="btn bg-emerald-800 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          6
+        </button>
+        <button
+          class="btn bg-yellow-500 h-16 w-36 rounded-full font-bold text-3xl shadow-md shadow-blue-700"
+        >
+          -
+        </button>
+      </div>
+      <div class="row4 mt-2">
+        <button
+          class="btn bg-emerald-800 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          1
+        </button>
+        <button
+          class="btn bg-emerald-800 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          2
+        </button>
+        <button
+          class="btn bg-emerald-800 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          3
+        </button>
+        <button
+          class="btn bg-yellow-500 h-16 w-36 rounded-full font-bold text-xl shadow-md shadow-blue-700"
+        >
+          +
+        </button>
+      </div>
+      <div class="row5 mt-2">
+        <button
+          class="btn bg-emerald-800 h-16 w-[293px] rounded-full font-bold text-xl"
+        >
+          0
+        </button>
+        <button
+          class="btn bg-emerald-800 h-16 w-36 rounded-full font-bold text-xl"
+        >
+          .
+        </button>
+        <button
+          class="btn bg-yellow-500 h-16 w-36 rounded-full font-bold text-xl"
+        >
+          =
+        </button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

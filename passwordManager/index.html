@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>   
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="flex justify-between w-full bg-[#0b263b] h-[52px] ">
+        <div class="name text-white pt-[10px] max-[300px]:ml-16">
+            Generator X
+        </div>
+        <div class="infor text-white pt-[9px] max-[300px]:hidden">
+            <a href="#" class="mr-[14px]">Home</a>
+            <a href="#" class="mr-[14px]">Contact</a>
+            <a href="#" class="mr-[10px]">About Us</a>
+        </div>
+    </nav>
+    <div class="container md:pl-16">
+    <h1 class="text-4xl font-bold my-2">Password Manager</h1>
+    <p>A strong password is one that difficult for someone to guess or a program to hack. Password strength is a measure of how long or how many attempts it would take for an attacker who doesn have access to the password to guess it correctly.
+        A password, sometimes called a passcode (for example in Apple devices),[1] is secret data, typically a string of characters, usually used to confirm a user's identity.[1] Traditionally, passwords were expected to be memorized,[2] but the large number of password-protected services that a typical 
+    </p>
+    <h1 class="text-3xl font-semibold my-2">Your Password</h1>
+    <table class="border-2 border-black min-[382px]:">
+        <tr>
+            <th >WebSite</th>
+            <th >UserName</th>
+            <th >Password </th>
+           <th class="max-[386px]:hidden">Delete</th>
+        </tr>
+        
+    </table>
+    <h2 class="text-3xl font-semibold my-4" >Add a password</h2>
+    <form class="mt-5 ">
+        <label for="we" class="text-xl">website:</label>
+        <input type="text" id="we" class="border-2 border-black " required>
+        <br>
+        <br>
+        <label for="la" class="text-xl">username:</label>
+        <input type="text" id="la" class="border-2 border-black " required>
+        <br>
+        <br>
+        <label for="laa" id="pa" class="text-xl">Password :</label>
+        <input type="password" id="laa" class="border-2 border-black " required>
+    </form>
+    <button type="submit" class=" btn my-4 h-8 w-24 rounded-md bg-black text-white" >Submit</button>
+   </div>
+   <script src="index.js"></script>
+</body>
+</html>

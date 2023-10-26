@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="main bg-blue-600 h-[100vh]">
+      <div class="first bg-orange-400 h-[50vh]">
+        <div
+          class="container flex flex-col justify-center items-center relative top-[80px] bg-white h-auto w-[500px] left-[37vw] shadow-[0_35px_60px_-18px_rgba(0,0,0,0.3)] rounded-xl"
+        >
+          <div class="in mb-32 flex">
+            <div class="sasuke mr-18">
+              <input
+                type="text"
+                placeholder="Task to be done..."
+                class=" border border-black h-12 w-80 text-center mt-[15px]"
+              />
+            </div>
+            <button
+              class="btn border border-blue-700 text-center text-white bg-blue-400 ml-6 w-24 rounded-xl text-xl mt-[14px]"
+            >
+              ADD
+            </button>
+          </div>
+          <div class="task font-medium text-xl relative bottom-[84px] ">
+            <p>You have <span class="naruto">0</span> task to do</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="indfex.js"></script>
+  </body>
+</html>
+
+

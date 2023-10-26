@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body >
+    <div class="container">
+        <div class="navbar h-14 w-screen md:h-[71px] bg-[#131921] flex justify-evenly">
+             <div class="image ">
+                <img src="unnamed.png" alt="" class="h-12 relative top-1 right-4 left-[-34px] md:left-[-283px] md:top-[12px] ">
+             </div>
+             <div class="image min-[768px]:visible max-[1380px]:visible min-[1380px]:hidden max-[768px]:hidden">
+                <img src="unnamed.png" alt="" class="h-12 relative top-1 right-4 left-[-34px] md:left-[-283px] md:top-[12px]  max-[1380px]:left-[-98px]">
+             </div>
+             <div class="title text-white text-base relative top-[13px] left-[15px] font-bold">
+                <h1 class="md:text-2xl md:relative md:left-[-58px] md:font-bold md:top-[4px] hover:text-yellow-400">Tic Tac Toe </h1>
+             </div>
+             <div class="bar text-white">
+                <a href="#" class="text-base font-bold relative top-[13px] left-[25px] md:text-2xl md:relative md:left-[80px] md:font-bold md:top-[15px] text-orange-500" >Home</a>
+                <a href="#" class="max-[817px]:hidden md:text-2xl md:relative md:left-[162px] md:font-bold md:top-[15px] ">Contact Us</a>
+                <a href="#" class="max-[817px]:hidden  md:text-2xl md:relative md:left-[192px] md:font-bold md:top-[15px] text-green-700 ">About</a>
+             </div>
+        </div>
+        <div class="gamecontainer h-[500px] bg-[#fffc44] w-screen flex justify-center mt-10 flex-col md:flex-row">
+            <div class="container grid grid-rows-3 grid-cols-3 ml-6 md:mt-4 mt-[119px] md:w-[584px] h-[259px] w-[287px] md:h-[456px]">
+                <div class="box border-2 hover:cursor-pointer flex justify-center items-center hover:bg-cyan-500 border-black"><span class=" control text-8xl"></span></div>
+                <div class="box border-2 hover:cursor-pointer flex justify-center items-center hover:bg-cyan-500 border-black"><span class=" control text-8xl"></span></div>
+                <div class="box border-2 hover:cursor-pointer flex justify-center items-center hover:bg-cyan-500 border-black"><span class=" control text-8xl"></span></div>
+                <div class="box border-2 hover:cursor-pointer flex justify-center items-center hover:bg-cyan-500 border-black"><span class=" control text-8xl"></span></div>
+                <div class="box border-2 hover:cursor-pointer flex justify-center items-center hover:bg-cyan-500 border-black"><span class=" control text-8xl"></span></div>
+                <div class="box border-2 hover:cursor-pointer flex justify-center items-center hover:bg-cyan-500 border-black"><span class=" control text-8xl"></span></div>
+                <div class="box border-2 hover:cursor-pointer flex justify-center items-center hover:bg-cyan-500 border-black"><span class=" control text-8xl"></span></div>
+                <div class="box border-2 hover:cursor-pointer flex justify-center items-center hover:bg-cyan-500 border-black"><span class=" control text-8xl"></span></div>
+                <div class="box border-2 hover:cursor-pointer flex justify-center items-center hover:bg-cyan-500 border-black"><span class=" control text-8xl"></span></div>
+            </div>
+            <div class="gameinfo md:ml-10 md:flex md:items-center md:flex-col md:justify-center">
+                <h1 class="md:text-4xl md:font-bold ml-[82px] text-base font-bold">Welcome to my Tic-Toc-Toe</h1>
+                <div class="flex flex-col ">
+                    <span class=" turn text-center pb-4 pt-3 text-xl ">Turn for X</span>
+                    <button id="btn" class=" md:mb-6 h-7 w-44 bg-red-500 border rounded-xl text-lg ml-[90px] md:ml-[20px] ">Reset</button>
+                </div>
+                <div class="image">
+                    <img src="4c58276469623b3db6c3cadd270863c1.gif" alt="">
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
